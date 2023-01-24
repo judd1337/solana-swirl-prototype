@@ -20,19 +20,16 @@ require('@solana/wallet-adapter-react-ui/styles.css');
 
 const App: FC = () => {
     return (
-        <div>
+        <div className="App">
             <Context>
                 <Content />
-            </Context>
-
-            <div className="App">
                 <h1>Solana Swirl Control Panel</h1>
-                
+            
                 <Tabs className="Tabs">
                     <TabList>
                         <Tab>Mint NFT</Tab>
                         <Tab>Handle Collections</Tab>
-                        <Tab>Buy NFTs</Tab>
+                        <Tab>Handle Winners</Tab>
                     </TabList>
                     
                     <TabPanel>
@@ -49,7 +46,7 @@ const App: FC = () => {
                 <div className="logo">
                     <img src={logo} className="App-logo" alt="logo" />
                 </div>
-            </div>
+            </Context>
         </div>
     );
 }
