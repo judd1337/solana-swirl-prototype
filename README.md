@@ -1,6 +1,9 @@
 # solana-swirl-prototype
 A prototype for Solana Swirl built for the Solana Sandstorm Hackathon
 
+![image](https://user-images.githubusercontent.com/102535293/214197564-c7794cb4-8797-4a2b-8c53-6835e131900a.png)
+
+
 # Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
