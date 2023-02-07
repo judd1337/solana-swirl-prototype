@@ -1,11 +1,19 @@
 # solana-swirl-prototype
-A prototype for Solana Swirl built for the Solana Sandstorm Hackathon
+This is a proof-of-concept for Solana Swirl
 
 ![image](https://user-images.githubusercontent.com/102535293/214197564-c7794cb4-8797-4a2b-8c53-6835e131900a.png)
 
 
 # Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+NOTE: You to this code you will have to create a .env file with the following content:
+REACT_APP_CROSSMINT_PROJECT_ID = <go to Crossmint API website to get this id>
+REACT_APP_CROSSMINT_CLIENT_SECRET = <go to Crossmint API website to get this client secret>
+REACT_APP_HELIUS_API_KEY = <go to Helius API website to get this key>
+REACT_APP_NFT_TICKET_IMG_URL = 'https://cdn.discordapp.com/attachments/993150935058628618/1066492152244351007/ticket.png'
+REACT_APP_NFT_COLLECTION_IMG_URL = 'https://cdn.discordapp.com/attachments/993150935058628618/1066869003475230791/a8afda400e8f26d886c5e428365e7b.png'
+REACT_APP_SOLANA_SWIRL_WALLET_ADDRESS = <your own phantom wallet address>
 
 ## Available Scripts
 
